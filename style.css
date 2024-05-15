@@ -72,12 +72,8 @@ main {
   object-fit: cover;
   border-radius: 10px;
 }
-"""section {
-  background-color: #ff8180;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-}"""
+
+
 
 h2 {
   font-family: 'Playfair Display', serif;
