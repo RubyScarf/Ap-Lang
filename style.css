@@ -67,3 +67,9 @@ navoptions {
   font-weight: bold;
   !important
 }
+
+.container {
+  column-count: 2;
+  column-width: 200px;
+  column-gap: 20px;
+}
