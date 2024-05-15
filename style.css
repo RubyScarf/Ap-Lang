@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #dfdfdf;
+  background-color: #ff8180;
   padding: 20px;
   text-align: center;
 }
@@ -43,7 +43,7 @@ main {
 }
 
 section {
-  background-color: #ff8180;
+  background-color: #dfdfdf;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -61,7 +61,7 @@ section {
   display: grid;
   grid-template-rows: auto 1fr;
   grid-gap: 10px;
-  background-color: #ff8180;
+  background-color: #dfdfdf;
   padding: 20px;
   border-radius: 10px;
 }
