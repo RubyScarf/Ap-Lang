@@ -94,6 +94,27 @@ navoptions {
   !important
 }
 
+.square-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  flex-basis: 50%;
+  max-width: 50%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
 topbit {
   
 }
