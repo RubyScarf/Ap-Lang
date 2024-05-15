@@ -63,5 +63,6 @@ footer {
 }
 
 navoptions {
-  font-family: verdana
+  font-family: verdana;
+  font-weight: bold;
 }
