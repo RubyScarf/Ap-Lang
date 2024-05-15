@@ -68,7 +68,7 @@ navoptions {
   !important
 }
 
-.container {
+main.container {
   column-count: 2;
   column-width: 45%;
   column-gap: 20px;
