@@ -35,10 +35,6 @@ a.nav-link:active {
   text-decoration: none;
 }
 
-.Mainthing {
-  margin: 0px, 400px, 0px, 400px;
-}
-
 main {
   display: flex;
   flex-direction: column;
