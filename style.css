@@ -56,7 +56,7 @@ main {
 
 .section-item {
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto 300px;
   grid-gap: 10px;
   background-color: ##ededed;
   padding: 20px;
