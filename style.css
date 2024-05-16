@@ -1,7 +1,4 @@
 /* style.css */
-
-/* Remove duplicate styles and use a more consistent naming convention */
-
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #FFFFFF;
@@ -30,9 +27,16 @@ nav a {
   text-decoration: none;
 }
 
-.nav-link {
+a.nav-link:link,
+a.nav-link:visited,
+a.nav-link:hover,
+a.nav-link:active {
   color: #fb3f00;
   text-decoration: none;
+}
+
+.Mainthing {
+  margin: 0px, 400px, 0px, 400px;
 }
 
 main {
@@ -44,21 +48,17 @@ main {
 
 .section-wrapper {
   display: grid;
-  grid-template-columns: repeat(500px, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
   align-items: stretch;
   justify-content: center;
 }
 
-.my-5 {
-  
-}
-
 .section-item {
   display: grid;
-  grid-template-rows: auto 300px; /*try auto instead of 300px*/
+  grid-template-rows: auto 1fr;
   grid-gap: 10px;
-  background-color: #ededed; /* Fix color code */
+  background-color: ##ededed;
   padding: 20px;
   border-radius: 10px;
 }
@@ -71,11 +71,12 @@ main {
 }
 
 .section-item img {
-  width: 300px;
+  width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
 }
+
 
 h2 {
   font-family: 'Playfair Display', serif;
@@ -88,6 +89,7 @@ img {
   height: 100px;
   object-fit: cover;
   border-radius: 10px;
+  !important
 }
 
 footer {
@@ -101,6 +103,28 @@ footer {
 navoptions {
   font-family: verdana;
   font-weight: bold;
+  !important
 }
 
-/* Remove duplicate styles and use a more consistent naming convention */
+.section-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+topbit {
+  
+}
+
+main .container {
+  column-count: 2;
+  column-width: 45%;
+  column-gap: 20px;
+}
