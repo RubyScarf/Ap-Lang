@@ -35,10 +35,6 @@ nav a {
   text-decoration: none;
 }
 
-.Mainthing {
-  margin: 0px 400px 50px; /* Simplify margin shorthand */
-}
-
 main {
   display: flex;
   flex-direction: column;
