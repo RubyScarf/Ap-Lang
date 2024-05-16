@@ -54,9 +54,13 @@ main {
   justify-content: center;
 }
 
+.my-5 {
+  
+}
+
 .section-item {
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: 300px 1fr; /*try auto instead of 300px*/
   grid-gap: 10px;
   background-color: #ededed; /* Fix color code */
   padding: 20px;
