@@ -48,7 +48,7 @@ main {
 
 .section-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
   grid-gap: 20px;
   align-items: stretch;
   justify-content: center;
@@ -56,7 +56,7 @@ main {
 
 .section-item {
   display: grid;
-  grid-template-rows: auto 300px;
+  grid-template-rows: auto 1fr;
   grid-gap: 10px;
   background-color: ##ededed;
   padding: 20px;
