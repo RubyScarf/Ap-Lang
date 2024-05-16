@@ -1,4 +1,7 @@
 /* style.css */
+
+/* Remove duplicate styles and use a more consistent naming convention */
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #FFFFFF;
@@ -27,16 +30,13 @@ nav a {
   text-decoration: none;
 }
 
-a.nav-link:link,
-a.nav-link:visited,
-a.nav-link:hover,
-a.nav-link:active {
+.nav-link {
   color: #fb3f00;
   text-decoration: none;
 }
 
 .Mainthing {
-  margin: 0px, 400px, 0px, 400px;
+  margin: 0 400px; /* Simplify margin shorthand */
 }
 
 main {
@@ -58,7 +58,7 @@ main {
   display: grid;
   grid-template-rows: auto 1fr;
   grid-gap: 10px;
-  background-color: ##ededed;
+  background-color: #ededed; /* Fix color code */
   padding: 20px;
   border-radius: 10px;
 }
@@ -77,7 +77,6 @@ main {
   border-radius: 10px;
 }
 
-
 h2 {
   font-family: 'Playfair Display', serif;
   font-size: 24px;
@@ -89,7 +88,6 @@ img {
   height: 100px;
   object-fit: cover;
   border-radius: 10px;
-  !important
 }
 
 footer {
@@ -103,28 +101,6 @@ footer {
 navoptions {
   font-family: verdana;
   font-weight: bold;
-  !important
 }
 
-.section-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  align-items: center;
-  justify-content: center;
-}
-
-.section-wrapper img {
-  width: 100%;
-  height: auto;
-}
-
-topbit {
-  
-}
-
-main .container {
-  column-count: 2;
-  column-width: 45%;
-  column-gap: 20px;
-}
+/* Remove duplicate styles and use a more consistent naming convention */
