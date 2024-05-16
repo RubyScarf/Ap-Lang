@@ -35,6 +35,10 @@ a.nav-link:active {
   text-decoration: none;
 }
 
+.Mainthing {
+  margin: 40px;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -42,20 +46,9 @@ main {
   padding: 20px;
 }
 
-.Mainthing {
-  margin: 40px;
-}
-
-section {
-  background-color: #ededed;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-}
-
 .section-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
   align-items: stretch;
   justify-content: center;
@@ -65,7 +58,7 @@ section {
   display: grid;
   grid-template-rows: auto 1fr;
   grid-gap: 10px;
-  background-color: #ededed;
+  background-color: #ff8180;
   padding: 20px;
   border-radius: 10px;
 }
@@ -83,7 +76,6 @@ section {
   object-fit: cover;
   border-radius: 10px;
 }
-
 
 
 h2 {
