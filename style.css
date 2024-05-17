@@ -79,3 +79,7 @@ main .container {
   column-width: 45%;
   column-gap: 20px;
 }
+
+iframe {
+  pointer-events:none
+}
